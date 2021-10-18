@@ -40,7 +40,11 @@
 .open-post {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px 30px 20px;
+  margin: 0 20px 20px 20px;
+}
+
+.open-post {
+  margin-bottom: 50px;
 }
 
 .open-post__title {
