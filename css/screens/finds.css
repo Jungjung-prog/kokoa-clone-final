@@ -43,7 +43,7 @@
   margin: 0 20px 20px 20px;
 }
 
-.open-post {
+.open-post:last-child {
   margin-bottom: 50px;
 }
 
