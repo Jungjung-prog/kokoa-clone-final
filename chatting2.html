@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with other Meows</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chat.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">무야호</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-images fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Saturday, October 16, 2021</div>
+
+      <div class="message-row">
+        <a class="go-to__chat" href="chat.html"
+          ><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXjZaUi0BAloor-vPuqwqdYIPzPiI4GXjB_g&usqp=CAU"
+        /></a>
+
+        <div class="message-row__content">
+          <span class="message__author">무야호</span>
+          <div class="message__info">
+            <span class="message__bubble">언제왕ㅇㅅㅇ</span>
+            <span class="message__time">12:20</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJZV-KmMtyOxSZLTIzZk6Ppj4gfBet_pbmJw&usqp=CAU"
+        />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">ㅠㅠ귀여워ㅠㅠㅠ</span>
+            <span class="message__time">12:22</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fas fa-camera-retro fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="냥..." />
+        <i class="fas fa-cat fa-lg"></i>
+        <button>
+          <i class="fas fa-paw"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>스크린이 너무 크다냥🙀</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

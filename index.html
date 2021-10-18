@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Meows</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">
+        <i class="fas fa-paw"></i>
+        어서오라냥.
+      </h1>
+
+      <p class="welcome-header__text">가입 후, 고양이들과 대화하세요.</p>
+    </header>
+    <form action="meows.html" method="get" id="login-form">
+      <input name="username" required type="text" placeholder="Meow name" />
+      <input
+        name="password"
+        required
+        type="password"
+        placeholder="Meow's birtdate (yy/mm/dd)"
+      />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="meows.html">Find Meow Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>스크린이 너무 크다냥🙀</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
